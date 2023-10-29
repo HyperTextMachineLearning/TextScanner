@@ -22,7 +22,7 @@ class AllContent:
             self.window.title("All Content")
             self.window.config(bg="#0c082b")
             self.window.geometry(f"{self.window.winfo_screenwidth() - 100}x{self.window.winfo_screenheight() - 100}+0+0")
-            self.window.state('zoomed')
+            self.window.state('normal')
             self.window.configure(pady=10)
             self.window.columnconfigure(0, weight=1)
             self.window.rowconfigure(0, weight=1)
@@ -92,14 +92,10 @@ class AllContent:
             q_related_btn.columnconfigure(0, weight=1)
             q_related_btn.columnconfigure(1, weight=1)
             q_related_btn.columnconfigure(2, weight=1)
-            q_related_btn.columnconfigure(3, weight=1)
             q_related_btn.grid(row=2, column=0, columnspan=2, sticky=NW, pady=10)
             copy_btn = Button(q_related_btn,
                               text="Copy",
                               font=("Microsoft Sans Serif", 13))
-            chrome_btn = Button(q_related_btn,
-                                text="Chrome",
-                                font=("Microsoft Sans Serif", 13))
             extra_btn = Button(q_related_btn,
                                text="Extras",
                                font=("Microsoft Sans Serif", 13))
@@ -107,14 +103,12 @@ class AllContent:
                               text="Save",
                               font=("Microsoft Sans Serif", 13))
             copy_btn.grid(row=0, column=0)
-            chrome_btn.grid(row=0, column=1, padx=10)
             extra_btn.grid(row=0, column=2)
             save_btn.grid(row=0, column=3, padx=10)
             save_btn.bind("<ButtonPress-1>", self.refresh)
             chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome --incognito"
             search_query = f"{chrome_path} \"{question_text['text']}\""
             copy_btn.bind("<ButtonPress-1>", lambda e: pyperclip.copy(question_text['text']))
-            chrome_btn.bind("<ButtonPress-1>", lambda e: subprocess.run(search_query))
 
             # Answers for a Question Section, all RadioButtons
             # String Var , kinda acts as the RadioGroup
