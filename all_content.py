@@ -102,12 +102,10 @@ class AllContent:
             save_btn = Button(q_related_btn,
                               text="Save",
                               font=("Microsoft Sans Serif", 13))
-            copy_btn.grid(row=0, column=0)
-            extra_btn.grid(row=0, column=2)
-            save_btn.grid(row=0, column=3, padx=10)
+            copy_btn.grid(row=0, column=0, padx=10)
+            extra_btn.grid(row=0, column=1)
+            save_btn.grid(row=0, column=2, padx=10)
             save_btn.bind("<ButtonPress-1>", self.refresh)
-            chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome --incognito"
-            search_query = f"{chrome_path} \"{question_text['text']}\""
             copy_btn.bind("<ButtonPress-1>", lambda e: pyperclip.copy(question_text['text']))
 
             # Answers for a Question Section, all RadioButtons
