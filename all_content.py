@@ -91,20 +91,15 @@ class AllContent:
                                   bg="#0c082b",)
             q_related_btn.columnconfigure(0, weight=1)
             q_related_btn.columnconfigure(1, weight=1)
-            q_related_btn.columnconfigure(2, weight=1)
             q_related_btn.grid(row=2, column=0, columnspan=2, sticky=NW, pady=10)
             copy_btn = Button(q_related_btn,
                               text="Copy",
                               font=("Microsoft Sans Serif", 13))
-            extra_btn = Button(q_related_btn,
-                               text="Extras",
-                               font=("Microsoft Sans Serif", 13))
             save_btn = Button(q_related_btn,
                               text="Save",
                               font=("Microsoft Sans Serif", 13))
-            copy_btn.grid(row=0, column=0, padx=10)
-            extra_btn.grid(row=0, column=1)
-            save_btn.grid(row=0, column=2, padx=10)
+            copy_btn.grid(row=0, column=0)
+            save_btn.grid(row=0, column=1, padx=10)
             save_btn.bind("<ButtonPress-1>", self.refresh)
             copy_btn.bind("<ButtonPress-1>", lambda e: pyperclip.copy(question_text['text']))
 

@@ -8,7 +8,8 @@ from PIL import ImageGrab, ImageDraw, ImageTk
 from cv2 import cv2 as cv
 import numpy as np
 import pytesseract
-#pytesseract.pytesseract.tesseract_cmd = '~/Downloads/tesseract-4.1.1-x86_64.AppImage'
+
+pytesseract.pytesseract.tesseract_cmd = 'Path\\To\\tesseract.exe'
 
 # Controls the {start|stop}ing of showing the preview image
 stop_preview = False
