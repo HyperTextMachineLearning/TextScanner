@@ -1,0 +1,307 @@
+{
+    "q_1": {
+        "body": "Methods of a class that provide access to private members of the class are\ncalled as __ and __\n",
+        "options": [
+            "getters/setters",
+            "__repr_/__str__",
+            "user-defined functions/in-built functions",
+            "__init_/_del_"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_2": {
+        "body": "list1 is [2, 33, 222, 14, 25], What is list1[:-2]?\n",
+        "options": [
+            "[2, 33, 222]",
+            "Error",
+            "25",
+            "[25, 14, 222, 33, 2]"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_3": {
+        "body": "Which of the following statements create a dictionary?\n",
+        "options": [
+            "d=[\u2018john\u2019,40, \u201cpeter\u201d,45]",
+            "d = {\"john\u201d:40, \u201cpeter\u2019:45}",
+            "d=(\u201cjohn\u201d,40, \u201cpeter\u2019,45)",
+            "dict d=[\u2018john\u2019,40, \u201cpeter\u2019,45]"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_4": {
+        "body": "Which of the following statement will check if a is equal to b?\n",
+        "options": [
+            "ifa=b:",
+            "ifa ==:",
+            "ifa===b",
+            "ifa==b"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_5": {
+        "body": "Which keyword is use for displaying output on the screen\n",
+        "options": [
+            "print",
+            "printf",
+            "printl",
+            "printin"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_6": {
+        "body": "what is output of following code\n\na={5,6,7}\na.add(5)\nprint(a)\n",
+        "options": [
+            "a={5,5,6,7}",
+            "a={5,6,7}",
+            "Error: There is no add function for set data type",
+            "a=({5,6,7,5}"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_7": {
+        "body": "A package is define as a folder containing one or more Python modules. One of the modules in a package must be called __\n",
+        "options": [
+            "__package__.py",
+            "init.py",
+            "__main__.py",
+            "__init__.py"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_8": {
+        "body": "Which command is used to open a file \u201cc:abc.txt\u201d in read-mode only?\n",
+        "options": [
+            "infile = open(\u201cc:abc.txt\u2019, \u201cr\u2019)",
+            "infile = open(\u201cc:abc.txt\u2019, \u201cr\u2019)",
+            "infile = open(file = \u201cc:abc. txt\u2019, \u201cr+\u201d)",
+            "infile = open(file = \u201cc:abc.txt\u2019, \u201cr+\u201d)"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_9": {
+        "body": "What relationship correctly fits for University and Professor?\n",
+        "options": [
+            "Association",
+            "Composition",
+            "Inheritance",
+            "Encapsulation"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_10": {
+        "body": "A Python modules are primarily the files with extension which contains valid Python programming code.\n",
+        "options": [
+            "pym",
+            "pymodule",
+            "module",
+            "Py"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_11": {
+        "body": "Which of the following is not a standard exception in Python?\n",
+        "options": [
+            "NameError",
+            "IOError",
+            "AssignmentError",
+            "ValueError"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_12": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_13": {
+        "body": "What relationship is appropriate for Fruit and Papaya?\n",
+        "options": [
+            "Association",
+            "Composition",
+            "Inheritance",
+            "Polymorphism"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_14": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_15": {
+        "body": "Which of these is not a fundamental feature of OOP\n",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Instantiation",
+            "Polymorphism"
+        ],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_16": {
+        "body": "The assignment of more than one function to a particular operator is\n",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_17": {
+        "body": "Can we write else if statement into one line in python?\n",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_18": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_19": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_20": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_21": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_22": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_23": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_24": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_25": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_26": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_27": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_28": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_29": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_30": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_31": {
+        "body": "Which keyword would be suitable for use to add an alternative condition to an if statement in python?\n",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_32": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_33": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_34": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_35": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_36": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_37": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_38": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_39": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    },
+    "q_40": {
+        "body": "",
+        "options": [],
+        "answer": "0",
+        "extras": ""
+    }
+}
